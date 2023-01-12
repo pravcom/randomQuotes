@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Oswald&display=swap');
+
+body{
+    background-color: lightblue;
+}
+.container{    
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotes{
+    border: 10px solid lemonchiffon;
+    width: 75%;
+    height: 45%;
+    text-align: center;
+    background-color: pink;
+}
+
+#quote {
+    padding-top: 20px;
+    font-size: 0.8 rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+#author {
+    font-size: 1.5 rem;
+    font-family: 'Moon Dance', cursive;
+}
+.button {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media ( max-width: 480px ) {
+
+}
